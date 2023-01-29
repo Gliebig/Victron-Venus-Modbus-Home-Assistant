@@ -1,0 +1,43 @@
+#modbus: !include modbus.yaml
+
+sensors:
+  - name: "Coach Battery Volts"
+    data_type: uint16
+    unit_of_measurement: "Vdc"
+    slave: 238
+    address: 259  
+  - name: "Coach Battery Amps"
+    data_type: uint16
+    unit_of_measurement: "A"
+    slave: 238
+    address: 261         
+ 
+  - name: "Chasis Battery Volts"
+    data_type: uint16
+    unit_of_measurement: "Vdc"
+    slave: 239
+    address: 259
+  - name: "Chassis Battery Amps"
+    data_type: uint16
+    unit_of_measurement: "A"
+    slave: 239
+    address: 261         
+ 
+  - name: "lattitude"
+    data_type: int32
+    slave: 100
+    address: 2800
+  - name: "logitude"
+    data_type: int32
+    slave: 100
+    address: 2802
+  - name: "altitude"
+    data_type: int32
+    unit_of_measurement: "Ft"
+    slave: 100
+    address: 2808
+  - name: "speed"
+    data_type: uint16
+    unit_of_measurement: "MPH"
+    slave: 100
+    address: 2805

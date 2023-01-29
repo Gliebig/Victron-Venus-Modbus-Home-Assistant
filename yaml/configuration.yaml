@@ -1,0 +1,5 @@
+modbus:
+  name: victron-ve
+  type: tcp
+  host: !secret venus_ip
+  port: 502
