@@ -1,1 +1,2 @@
 # Victron-Venus-Modbus-Home-Assistant
+This project is an attempt to get a Rasberry PI 3B+ talking to my Home Assistant server on my RV using the modbus protocol. I have already installed the Venus OS large image on my PI and have configured the PI to wirelessly connect to the router on the RV with a static DHCP reservation. This will be an ongoing project that I will be working on getting ready for retirement. Hopefully my setup will help others as an example of what works and how it's configured.
